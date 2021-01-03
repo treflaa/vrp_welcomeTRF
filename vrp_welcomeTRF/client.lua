@@ -17,7 +17,7 @@ if aratawelcome == true then
             local coords = GetEntityCoords(GetPlayerPed(-1))
 			DrawText3D(coords.x, coords.y, coords.z + 0.200, "~w~Bine ai venit pe ~p~Krown Romania-RP ~w~!", 2, 0.4, 0.3)
 			DrawText3D(coords.x, coords.y, coords.z, "~w~Discord-ul serverului este: ~p~discord.io/krown ~w~!", 2, 0.4, 0.3)
-            DrawText3D(coords.x, coords.y, coords.z - 0.200, "~w~ID-ul tau este: ~p~"..user_id.." ~w~!", 2, 0.4, 0.3)
+                        DrawText3D(coords.x, coords.y, coords.z - 0.200, "~w~ID-ul tau este: ~p~"..user_id.." ~w~!", 2, 0.4, 0.3)
         end
     end)
 
