@@ -12,7 +12,7 @@ if aratawelcome then
     AddEventHandler('TRF:WelcomeMessage', function(user_id)
 
     Citizen.CreateThread(function() 
-        while aratawelcome == true do     
+        while aratawelcome do     
             Citizen.Wait(1)	
             local coords = GetEntityCoords(GetPlayerPed(-1))
 			DrawText3D(coords.x, coords.y, coords.z + 0.200, "~w~Bine ai venit pe ~p~Krown Romania-RP ~w~!", 2, 0.4, 0.3)
