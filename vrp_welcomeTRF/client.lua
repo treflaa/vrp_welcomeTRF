@@ -6,7 +6,7 @@
 
 local aratawelcome = true
 
-if aratawelcome == true then
+if aratawelcome then
 
     RegisterNetEvent('TRF:WelcomeMessage')
     AddEventHandler('TRF:WelcomeMessage', function(user_id)
@@ -22,7 +22,7 @@ if aratawelcome == true then
     end)
 
     Citizen.CreateThread(function()
-        if aratawelcome == true then
+        if aratawelcome then
           Citizen.Wait(10000)
           aratawelcome = false
         end
